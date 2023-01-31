@@ -255,18 +255,24 @@ margin-right: 25px;}
   margin: 32px auto 32px auto;
   border-style: dotted none none;
 }
-
+.education{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 625px;
+}
 .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(255,255,255,0.2);
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
-max-width: 250px;
+  /*max-width: 250px;*/
   padding-top: 25px;
-  margin: 0 auto;
+  width: 300px;
+  /*margin: 0 auto;*/
   padding-left: 12px;
+  margin-left: 25px;
+  margin-right: 25px;
   padding-right: 12px;
-
   padding-bottom: 25px;
   background-color: #F8F8FA;
 
@@ -288,8 +294,8 @@ object-fit: cover;
   display: grid;
     grid-gap: 0px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center;*/
+  /*align-items: center;*/
 }
 
 .degree{
@@ -309,4 +315,83 @@ margin-bottom: 1px;
 
 .cards h4{
   margin-bottom: 0px;
+}
+
+.redline{
+  color: #E27D60;
+  width: 10%;
+  border-width: 10px;
+  margin: 32px auto 32px auto;
+  border-style: dotted none none;
+}
+
+.smallline{
+
+  width: 10%;
+  border-width: 3px;
+  margin: 32px auto 32px auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 16px auto 16px auto;
+}
+
+.skilltitle{
+  color: #F8F8FA;
+}
+
+.projects p{
+  color: #F8F8FA;
+}
+
+.papertitle{
+  color: #F8F8FA;
+  text-decoration: underline;
+  text-decoration-color: #FF6363;
+  font-size: 24px;
+}
+
+.research{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 625px;
+}
+.pubname{
+  color: gray;
+  font-size: 11px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+p,
+blockquote {
+  line-height: 150%;
+  margin-bottom: 24px;
+}
+
+.paperdesc {
+  /*
+   * This short-hand for margin sets all 4 sides at once.
+   * It starts at the top and goes clockwise:
+   * top: 0, right: 0, bottom: 36px, left: 0
+   */
+  margin: 0 0 36px 0;
+  padding-left: 30px;
+  border-left: 6px solid #FF6363;
+  color: #F8F8FA;
+  font-style: italic;
+}
+
+.contacticons{
+  width:3.125rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  margin-top: 2.25rem;
+
+}
+.footer{
+  background-color: #011230;
+  margin-bottom: 0;
+  color: #EAF6F6;
+  padding-bottom: 1.25rem;
 }
