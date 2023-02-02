@@ -393,5 +393,7 @@ blockquote {
   background-color: #011230;
   margin-bottom: 0;
   color: #EAF6F6;
+  text-align: center;
   padding-bottom: 1.25rem;
 }
+
