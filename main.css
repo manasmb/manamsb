@@ -1,5 +1,5 @@
 body{
-   background: linear-gradient(to bottom right, #011230 37%, #063455 100%);
+   background-image: linear-gradient(to right bottom, #182848, #1c3d62, #1c537c, #166a97, #0083b0);
       font-family: "Poppins", sans-serif !important;
 }
 
@@ -352,6 +352,21 @@ margin-bottom: 1px;
   font-size: 24px;
 }
 
+.certification{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 625px;
+}
+
+.cert_image{
+  -moz-box-shadow: 10px 10px 5px #fff;
+  -webkit-box-shadow: 10px 10px 5px #fff;
+  box-shadow: 4px 4px 2px darkblue;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+}
+
 .research{
   margin-left: auto;
   margin-right: auto;
@@ -397,3 +412,8 @@ blockquote {
   padding-bottom: 1.25rem;
 }
 
+/*.footer-elements{*/
+/*  margin-left: auto;*/
+/*  margin-right: auto;*/
+/*  max-width: 625px;*/
+/*}*/
