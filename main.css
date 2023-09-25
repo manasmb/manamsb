@@ -1,6 +1,28 @@
 body{
-   background-image: linear-gradient(to right bottom, #182848, #1c3d62, #1c537c, #166a97, #0083b0);
-      font-family: "Poppins", sans-serif !important;
+   /* background-image: linear-gradient(to right bottom, #182848, #1c3d62, #1c537c, #166a97, #0083b0); */
+      background-image: url("images/bg.jpg");
+      background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+      font-family: "Roboto","Montserrat","Poppins", sans-serif !important;
+      
+      
+      
+}
+
+.bg {
+  
+  background-color: rgba(0, 0, 0, 0.764);
+}
+
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 ul {
@@ -48,7 +70,7 @@ a {
   float: right;
   padding: 8px;
   margin-right: 80px;
-  position: fixed;
+  position: fixd;
   right: 40px;
   z-index: 500;
   cursor: pointer;
@@ -79,7 +101,7 @@ a {
 
 
   top: 50px;
-  max-width: 540px;
+  max-width: 800px;
   padding: 1px 1px 5px 5px;
 }
 
@@ -91,11 +113,28 @@ a {
   /*padding-bottom: 256px;*/
 }
 
-.aboutme p {
-  color: white;
-  font-weight: 100;
+.allelementsInabout{
+  
   margin-top: 17px;
-  font-size: 17.4px;
+}
+.elementsInabout{
+  display:flex;
+  margin-top: 0px;
+}
+
+.emoji{
+  color: white;
+  
+  font-weight: 100;
+  margin-top: 0px;
+  font-size: 45px;
+}
+.text{
+  color: white;
+  margin-left: 10px;
+  font-weight: 100;
+  margin-top: 15px;
+  font-size: 20px;
 }
 .aboutme h1 {
   color: white;
@@ -213,22 +252,29 @@ margin-right: 25px;}
   color: #F8F8FA;
   font-size: 32px;
   margin-top: 16px;
-  font-weight: 100;
+  font-weight: bold;
 }
 
 .positionText{
   color: #F8F8FA;
   margin-top: 16px;
-  font-size: 16px;
+  font-size: 18px;
   display: inline;
-  font-weight: 0;
+  font-weight: bold;
 }
+
 
 .JobDesc{
   color: #F8F8FA;
   margin-top: 16px;
   max-width: 1024px;
-  font-size: 14px;
+  font-size: 16px;
+}
+.JobDescpt{
+  color: #F8F8FA;
+  margin-top: 12px;
+  max-width: 1024px;
+  font-size: 16px;
 }
 
 .location{
@@ -339,6 +385,7 @@ margin-bottom: 1px;
 
 .skilltitle{
   color: #F8F8FA;
+  font-weight: bold;
 }
 
 .projects p{

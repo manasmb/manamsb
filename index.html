@@ -5,7 +5,7 @@
     <title>Welcome!</title>
     <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
-
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
@@ -33,18 +33,30 @@
   </div>
 
 
-<div>
+<div class="bg">
     <section id="about" class="aboutContent">
 
         <div class="aboutme" data-anchor="aboutme">
             <div class="opaque-bg animated fadeInDown">
               <p style="color:#FF6363">Hi there, I'm</p>
               <h1 style="color:white">Manas<span style="color:#FF6363"> M </span>Bhat</h1>
-              <p>
-                I am currently pursuing masters in Information Systems at the University of Maryland.<br>
-                I am an Android/Web developer with 3.5 years of experience as a
-                Data Analyst, currently working as a Teaching assistant at the Robert H Smith School of Business
-              </p>
+              <div class="allelementsInabout">
+              <div class="elementsInabout">
+              <p class="emoji">
+                &#127891;
+                </p>
+                <p class="text">
+                 Masters in Information Systems at the University of Maryland.<br></p>
+                </div>
+                <div class="elementsInabout">
+                 <p class="emoji">
+                  &#128640;
+                  </p>
+                  <p class="text">
+                    Ex-Application Development Analyst at Accenture<br></p>
+                 
+                  </div>
+                  </div>
               <a id="submit" class="btn btn-lg" href="resume.pdf">Download Resume</a>
             </div>
         </div>
@@ -55,7 +67,7 @@
     <section id="experience">
         <div class="experience" data-anchor="projects">
              <div>
-                <p class="sectionTitles">Work Experience</p>
+                <p class="sectionTitles">What do I do?</p>
              </div>
 
             <div class="work-row">
@@ -65,16 +77,48 @@
 
                  <div class="divWorkText">
                      <h3 class="WorkPlaceName">Robert H. Smith School of Business <p class="location">College Park, MD, United States</p></h3>
+
                      <p class="positionText">Teaching Assistant</p><p class="date">January 2023 - Present</p>
                      <p class="JobDesc">
-                        • Enhanced and guided students in understanding the concepts of Web development using Flask framework in Python.<br>
-                        • Assisted in performing feasibility analysis to evaluate information systems configurations, implementing system development and project management methodologies to an industry project and in developing a functional information system prototype.<br>
-                        • Evaluated student assignments to grade them based on performance, offer constructive feedback, and promote best practices.
+                      &#128205;Guide students through the intricate world of web development using Flask framework in Python, as well as data analysis and processing with Python. My goal is to empower them with a diverse skill set.</p>
+                      <p class="JobDescpt">
+                        &#128205;I play a crucial role in performing feasibility analyses, critically evaluating information systems configurations, and implementing project management methodologies for industry projects.</p>
+                      <p class="JobDescpt">
+                        &#128205;Instrumental in developing computer programs that harness the power of sequence, selection, and repetition control structures to automate data analysis. Additionally, I help leverage pre-built Python code packages to efficiently manipulate, manage, and process data.</p>
+                      <p class="JobDescpt">
+                        &#128205;Unwavering commitment to student success: By meticulously evaluating student assignments, offering constructive feedback, and promoting best practices, I aim to empower students for excellence.</p>
+                      <p class="JobDescpt">
+                        &#128205;Not stop at theory; I guide students in applying their skills to real-world scenarios, ensuring they were well-prepared for practical challenges in the fields of web development and data analysis.</p>
+                      <p class="JobDescpt">
+                        &#128205;Transform complex concepts into easily understandable explanations, fostering an environment of collaborative learning.</p>
+                      <p class="JobDescpt">
+                        &#128205;Through rigorous project evaluation, I ensure that students not only received fair assessments but also gained valuable insights for continuous improvement.</p>
+<br>
+                     <p class="positionText">Research Assistant</p><p class="date">May 2023 - Present</p>
+                     <p class="JobDesc">
+                      &#128205;Delving deep into the world of research, I thrive on pushing boundaries and utilizing cutting-edge techniques.</p>
+                        <p class="JobDescpt">
+
+                          &#128205;I harness the power of Natural Language Processing (NLP) with HuggingFace's zero-shot classification to dissect the impact of AI initiatives.<br></p>
+                        <p class="JobDescpt">
+                          &#128205;Collaborating seamlessly with a team of fellow researchers, we tackle challenges head-on to uncover insights that matter.<br></p>
+                        <p class="JobDescpt">
+                          &#128205;I fearlessly wade through extensive datasets, analyzing over 5000 rows of classified data, making order out of complexity.<br></p>
+                        <p class="JobDescpt">
+                          &#128205;Armed with data and determination, I embark on a journey to uncover hidden gems of information, providing a fresh perspective on AI adoption in federal agencies.<br></p>
+                        <p class="JobDescpt">
+                          &#128205;Transforming raw data into eye-catching Tableau visualizations, I bring data to life, making it accessible and engaging for all.<br></p>
+                        <p class="JobDescpt">
+                          &#128205;Amidst the fun of research, I discover solutions to real-world challenges, revealing the true impact of AI initiatives in federal agencies.<br></p>
+                        <p class="JobDescpt">
+                        &#128205;Research often pose complex challenges, but I embrace them as opportunities for growth and innovation, never shying away from the unknown.</p>
                      </p>
                  </div>
             </div>
 
             <hr class="blueline">
+
+           
 
              <div class="work-row">
                 <div class="divWorkImg">
@@ -85,12 +129,21 @@
                      <h3 class="WorkPlaceName">Accenture <p class="location">Bengaluru, India</p></h3>
                      <p class="positionText">Data Analyst</p> <p class="date">November 2018 - July 2022</p>
                      <p class="JobDesc">
-                        • Designed and developed an application to summarize and assess customer spending pattern of over 12 million customers using python and oracle database.<br>
-                        • Examined and mined data from SQL databases for analysis and provided necessary recommendations to leadership, reducing $3.2M in revenue leakage.<br>
-                        • Collaborated with the Strategy and Audit department to develop a rich and dynamic dashboard using Tableau for tracking transactional data, resulting in 28% increase in marketing efficiency.<br>
-                        • Led a team responsible for monitoring key financial metrics, communicating reliable data-driven insights to stakeholders and ensuring the smooth launch of 18 products globally.<br>
-                        • Analyzed key metrics to meet business requirements while automating over 750 SAP scenarios across different functional areas, reducing human effort by 84%.<br>
-                        • Proposed and assisted in deploying a new interactive dashboard, while training and imparting knowledge to the leads of different teams.
+                      Data Maestro 📊: Specializing in crafting complex SQL reports, I generated data-driven recommendations, reducing revenue leakage by $3.2 million through meticulous data analysis.</p>
+                      <p class="JobDescpt">
+                      Python Pathfinder 🐍: With Python, I've created applications for analyzing spending patterns among 12 million customers, enabling data-driven insights.</p>
+                      <p class="JobDescpt">
+                      Visual Storyteller 📈: I designed dynamic Tableau dashboards, collaborating to boost marketing efficiency by 28% through real-time data visualization.</p>
+                      <p class="JobDescpt">
+                      Metrics Leader 🚀: Overseeing financial metrics and global product launches, I delivered data-driven insights and drive strategic decision-making.</p>
+                      <p class="JobDescpt">
+                      Innovative Mindset 💡: I innovate with interactive dashboards, earning the 'ACE award,' and imparting knowledge for growth.</p>
+                      <p class="JobDescpt">
+                      Quick Learning Champion 🌱: I swiftly grasp new concepts, excel in data cleaning, analysis, and collaborative projects, staying ahead in the evolving data landscape.</p>
+                      <p class="JobDescpt">
+                      Versatility & Team Spirit 🤝: Adapting roles seamlessly, I navigate diverse projects with expertise in data analytics techniques and their practical applications.</p>
+                      <p class="JobDescpt">
+                      Client-Centric Dynamo 👥: I build strong client relationships, consistently delivering beyond project requirements to foster lasting partnerships.
                      </p>
                  </div>
             </div>
@@ -106,9 +159,12 @@
                      <h3 class="WorkPlaceName">MauBank<p class="location">Ebene, Mauritius</p></h3>
                      <p class="positionText">IT Applications Intern</p> <p class="date">August 2018 - September 2022</p>
                      <p class="JobDesc">
-                        • Analyzed and Visualized data using python to identify key profitable areas for the bank by collaborating with financial and technical SMEs.<br>
-                        • Implemented prototypes, pilot applications, and A/B testing to improve user experience and maximize product efficiency, increasing it by 32%.<br>
-                        • Built machine learning model using Random Forest algorithm, having accuracy of 92% to predict possibility of loan turning into Non-Performing Asset.
+                      📈 Utilized Python's power while collaborating with financial and technical subject matter experts (SMEs) to analyze and visualize complex data, 
+                      identifying lucrative opportunities that drive business growth. </p>
+              
+                      <p class="JobDescpt">
+                      🧠 Armed with the mighty Random Forest algorithm, built a machine learning model that could forecast the possibility of loans turning into Non-Performing Assets (NPAs) 
+                      with an astonishing accuracy rate of 92%, embracing the challenges of this ever-evolving field, pushing boundaries and conquering complexities.</p>
                      </p>
                  </div>
             </div>
@@ -167,13 +223,67 @@
 
             <div class="skill-row">
 
-          <h3 class="skilltitle">Maryland Traffic Violation Analysis</h3>
-          <p>Analyzed traffic violations that occurred in Maryland, to help the local Police Department keep the roads safer. The data was acquired from Kaggle and covered violations from 2012 to 2018, with over 1.8 million violations recorded. Used various Python libraries like numpy, pandas, and matplotlib to answer specific questions and provide useful insights</p>
+              <h3 class="skilltitle">Exploratory and Predictive Analysis: AirBnb</h3>
+          
 
+              <p class="JobDescpt"> 🔍 
+              Embarking on this journey required commanding tools such as R, honing skills in data cleansing, preprocessing, and conducting meticulous exploratory analysis. Within the dataset's labyrinthine intricacies—spanning 100,000 listings and encompassing 58 intricate feature variables—lay concealed insights and invaluable knowledge. This was no ordinary cleanup; it was a technical triumph. 🧹</p>
+              
+              <p class="JobDescpt"> 🤖 
+              The heart of this expedition lay in the realm of predictive modeling. Through the meticulous application of regression, Random Forest, Neural Networks, Support Vector Machines, and XGBoost, an arsenal of sophisticated models emerged. These models embarked on a mission to predict the unpredictable, employing advanced algorithms to unravel the dataset's complexities. 🤯</p>
+              
+              <p class="JobDescpt"> 🚀 
+              The journey encountered its share of challenges—each parameter adjustment in the pursuit of model optimization was a strategic move in a cerebral chess game. Yet, persistence, a knack for experimentation, and a touch of wizardry resulted in a remarkable achievement. Securing 3rd place with an astounding accuracy rate of 77% was an affirmation of technical prowess and dedication. 🏆</p>
+              
+              <p class="JobDescpt">  🌟 This exploration through data mining and prediction is a testament to unwavering commitment, a deep-seated passion for technical excellence, and the unyielding quest to unveil the hidden gems within Airbnb's data vault. Join us in this riveting journey through data, discovery, and technical mastery by accessing the report below! 🌟</p>
+              
+              
+              </p>
+              <p>
+                Read the report here: <em><a href="Project_Report.pdf">Tap here</a></em>
+              </p>    
+          <p>
+            Link to the project: <em><a href="https://github.com/parika-rawat/Airbnb-Data-Prediction">Tap here</a></em>
+          </p>
+          
+          <hr class="redline">
+
+          <h3 class="skilltitle">Maryland Traffic Violation Analysis</h3>
+
+          <p class="JobDescpt">
+            📊 Data-Driven Decision-Making: Proficient in Python, we dissect intricate datasets, surmounting complexities to extract invaluable insights that drive well-informed decisions. Analyzed traffic violations in Maryland, spanning 2012 to 2018, with over 1.8 million violations, sourced from Kaggle, using Python libraries like numpy, pandas, and matplotlib.</p>
+
+            <p class="JobDescpt">  🗺️ Geospatial Analysis: Harnessing Python's Folium library, we tackle the challenge of translating raw coordinates into dynamic, interactive maps, revealing precise geographic traffic patterns.</p>
+            
+              <p class="JobDescpt">  📈 Interactive Data Visualization: With Python's data visualization libraries, we conquer complex data sets, creating visually captivating plots and charts that demystify intricate information.</p>
+            
+                <p class="JobDescpt">  🧠 Machine Learning Expertise: Our pioneering Python-powered predictive models shine with an astounding 97.4% accuracy. We've navigated the challenges of developing these models to predict high-risk scenarios and accidents.</p>
+            
+                  <p class="JobDescpt">  🔍 Data Cleaning and Transformation: Armed with Python's Pandas and NumPy, we've deftly handled the complexities of data cleaning and preprocessing, ensuring unwavering accuracy and reliability.</p>
+            
+                    <p class="JobDescpt">  📚 Statistical Analysis: We've applied advanced statistical techniques to unravel concealed patterns and trends within data. This meticulous analysis enables data-driven, evidence-based decision-making.</p>
+            
+                      <p class="JobDescpt">  🚀 Innovative Problem-Solving: Each data challenge is a puzzle we're eager to solve. We've harnessed Python's multifaceted capabilities to craft ingenious solutions to intricate problems.</p>
+            
+                        <p class="JobDescpt">  💼 Impactful Reporting: Beyond raw numbers, we've presented our comprehensive findings through visually stunning reports and visualizations. These reports effectively communicate insights to police departments and local authorities, promoting safer roads and informed actions.</p>
           <hr class="redline">
           <h3 class="skilltitle">The Mechanical App</h3>
-          <p>Developed a Java-based android application, to help students of Mechanical Engineering access notes and keep a track of their classes. This app was well received by students across different universities in Karnataka and has been
-            downloaded by over 10K users.</p>
+          
+
+          <p class="JobDescpt">              📱 Advanced Android Development: Spearheaded the creation of a Java-based Android application with a focus on optimizing performance and user experience. The project was tailored to cater specifically to Mechanical Engineering students, ensuring a seamless and efficient interface. 🚀</p>
+
+            <p class="JobDescpt">    🌍 Global User Reach: Achieved widespread adoption of the application, transcending geographical boundaries to cater to Mechanical Engineering students at universities around the world. The app has garnered an impressive user base, with over 10,000 downloads and counting. 🌐</p>
+            
+              <p class="JobDescpt">    🔄 Iterative Feature Enhancement: The application began with a fundamental timetable feature, subsequently evolving through iterative development cycles. Collaboration with subject matter experts, including lecturers, facilitated the addition of advanced functionalities. Notably, the app expanded to encompass a comprehensive repository of lecture notes and critical study materials, serving as a holistic academic resource. 📚</p>
+            
+                <p class="JobDescpt">   🎮 Strategic Gaming Integration: Entered into a strategic partnership with Gamezop, a prominent Indian gaming company, to seamlessly incorporate an extensive library of 350+ games within the app. This integration elevated the app's engagement levels, transforming it into a multifaceted platform for both learning and leisure. 🕹️</p>
+            
+                  <p class="JobDescpt">    🔥 Firebase-Powered Dynamics: The app seamlessly integrated Firebase, a powerful cloud service, to bolster its technical infrastructure. Firebase served as the backbone for real-time notifications, delivering timely updates to users. Additionally, it fortified the application's authentication mechanisms, ensuring data security. Firebase also functioned as a dynamic database, facilitating efficient data storage and retrieval, which proved vital in scaling the application. 📡</p>
+              
+              
+              
+              
+              </p>
           <p>
             Link to the app: <em><a href="https://play.google.com/store/apps/details?id=com.manas.manasmb.timetable3&hl=en_IN&gl=US">Tap here</a></em>
           </p>
